@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>WaniKani API Settings</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      padding: 10px;
+      max-width: 300px;
+    }
+    h2 {
+      font-size: 18px;
+      margin-bottom: 10px;
+    }
+    label {
+      display: flex;
+      align-items: center;
+      margin-bottom: 10px;
+    }
+    input[type="password"], input[type="checkbox"] {
+      margin-right: 10px;
+      padding: 5px;
+    }
+    button {
+      padding: 8px 15px;
+      background: #0078d7;
+      color: white;
+      border: none;
+      border-radius: 4px;
+      cursor: pointer;
+      margin-top: 5px;
+    }
+    #timer {
+      margin-top: 10px;
+      font-size: 16px;
+      color: red;
+    }
+  </style>
+</head>
+<body>
+  <h2>WaniKani Locker Settings</h2>
+  <label>
+    Authorization Key:
+    <input type="password" id="authKey" placeholder="Enter your API key">
+  </label>
+  <label>
+    <input type="checkbox" id="toggleLessons" checked>
+    Enable Lessons Check
+  </label>
+  <label>
+    <input type="checkbox" id="toggleReviews" checked>
+    Enable Reviews Check
+  </label>
+  <button id="waitButton">Wait 10 Minutes</button>
+  <button id="resumeButton">Resume Now</button>
+  <div id="timer"></div>
+  <button id="saveSettings">Save Settings</button>
+
+  <script src="popup.js"></script>
+</body>
+</html>
