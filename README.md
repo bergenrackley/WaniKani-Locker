@@ -30,6 +30,7 @@ Your key is stored **locally** in your browser and used solely to check your rev
 ## 📦 Third-Party Licenses
 
 This project uses icons from the [Google Material Icons](https://github.com/google/material-design-icons) library.
+
 Material Icons © Google
 
 Licensed under the Apache License, Version 2.0
