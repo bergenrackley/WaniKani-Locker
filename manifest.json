@@ -1,7 +1,7 @@
 {
     "manifest_version": 3,
-    "name": "WaniKani API Checker",
-    "version": "1.3",
+    "name": "WaniKani Locker",
+    "version": "1.0",
     "description": "Check WaniKani lessons and reviews status.",
     "permissions": ["storage", "tabs", "activeTab", "scripting"],
     "host_permissions": ["<all_urls>"],
