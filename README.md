@@ -22,7 +22,7 @@ There's code to support **WaniKani Lessons**, but currently no API endpoint/filt
 
 ## 🔐 API Key Usage
 
-You’ll need to provide your **WaniKani API key** via the extension options.  
+You’ll need to provide your **WaniKani API key** via the extension popup.  
 Your key is stored **locally** in your browser and used solely to check your review and lesson status.
 
 ---
