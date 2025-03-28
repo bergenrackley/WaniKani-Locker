@@ -1,6 +1,6 @@
 # ⛔ WaniKani Locker
 
-A simple Chrome extension that blocks access to distracting websites **while you have pending WaniKani reviews**.
+A simple Chrome extension that blocks access to websites **while you have pending WaniKani reviews**.
 
 ## ✍️ Description
 
